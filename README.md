@@ -1,4 +1,4 @@
-### Generative-AI-tutorials
+## Generative-AI-tutorials
 ### $\Large{\color{Purple}\textbf{Agenda:}}$
 * Generative AI?
 * Large Language Models LLMs?
