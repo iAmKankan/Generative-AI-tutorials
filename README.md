@@ -13,5 +13,5 @@
 ### Neural Network
 
 <p align="center">
- <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/21193483-5adc-480d-b62d-5b6bcb50e98c" width=60%/>
+ <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/6001fe67-c59b-4f15-abaa-4f4646aa4481" width=60%/>
 </p>
