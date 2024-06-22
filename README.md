@@ -10,3 +10,8 @@
 * Open Source LLM model
 * End to End project
   
+### Neural Network
+
+<p align="center">
+ <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/97863b27-348c-4a35-9bbf-31a6e9329bda" width=60%/>
+</p>
