@@ -22,3 +22,4 @@ $\Large Answer:$ Generative AI generates new data based on the training samples.
 Generative AI has mainly two parts
 1) Generative Language Models. example Large Language Models(LLMS)
 2) Generative Image Models.
+
