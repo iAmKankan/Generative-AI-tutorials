@@ -1,11 +1,12 @@
-### 
-Generative adversarial networks (GANs) are an exciting recent innovation in machine learning. GANs are generative models: they create new data instances that resemble your training data. For example, GANs can create images that look like photographs of human faces, even though the faces don't belong to any real person. These images were created by a GAN: 
+### Generative adversarial networks (GANs)
+Generative adversarial networks (GANs) are an exciting recent innovation in machine learning. **GANs** are **generative models**: they create **new data instances** that resemble your **training data**. For example, GANs can create **images** that look like photographs of human faces, even though the faces don't belong to any real person. 
 
 <p align="center">
   <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/219d1fe4-cf24-436d-aff5-7db85c92b66f" width=50%/>
+  <ins><b><i>GAN produced human pictures</i></b></ins>
 </p>
 
-GANs achieve this level of realism by pairing a generator, which learns to produce the target output, with a discriminator, which learns to distinguish true data from the output of the generator. The generator tries to fool the discriminator, and the discriminator tries to keep from being fooled.
+**GANs** achieve this level of realism by pairing a **generator**, which learns to produce the target output, with a **discriminator**, which learns to distinguish true data from the output of the generator. The **generator** tries to **fool** the **discriminator**, and the **discriminator** tries to keep from being **fooled**.
 
 ### Background: What is a Generative Model? 
 
@@ -20,8 +21,8 @@ A **generative** model could generate new **photos of animals** that look like r
 
 More formally, given a set of data instances $\large{\color{Purple}X}$ and a set of labels $\large{\color{Purple}Y}$:
 
-Generative models capture the joint probability $\large{\color{Purple}p(X, Y)}$ or just $\large{\color{Purple}p(X)}$ if there are no labels.
-Discriminative models capture the conditional probability $\large{\color{Purple}p(Y | X)}$.
+* **Generative** models capture the joint probability $\large{\color{Purple}p(X, Y)}$ or just $\large{\color{Purple}p(X)}$ if there are no labels.
+* **Discriminative** models capture the conditional probability $\large{\color{Purple}p(Y | X)}$.
 A generative model includes the distribution of the data itself, and tells you how likely a given example is. For example, models that predict the next word in a sequence are typically generative models (usually much simpler than GANs) because they can assign a probability to a sequence of words.
 
 A discriminative model ignores the question of whether a given instance is likely, and just tells you how likely a label is to apply to the instance.
