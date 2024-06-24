@@ -1,5 +1,5 @@
 ### ⬛ Generative adversarial networks (GANs)
-Generative adversarial networks (GANs) are an exciting recent innovation in machine learning. **GANs** are **generative models**: they create **new data instances** that resemble your **training data**. For example, GANs can create **images** that look like photographs of human faces, even though the faces don't belong to any real person. 
+**Generative adversarial networks (GANs)** are an exciting recent innovation in machine learning. **GANs** are **generative models**: they create **new data instances** that resemble your **training data**. For example, GANs can create **images** that look like photographs of human faces, even though the faces don't belong to any real person. 
 
 <p align="center">
   <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/219d1fe4-cf24-436d-aff5-7db85c92b66f" width=50%/>
