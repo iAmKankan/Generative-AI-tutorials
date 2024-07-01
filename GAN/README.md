@@ -1,3 +1,25 @@
+### ⬛ What is a Generative Adversarial Network?
+**Generative Adversarial Networks (GANs)** are a powerful class of **neural networks** that are used for an **unsupervised learning**. GANs are made up of two neural networks, **a discriminator** and **a generator**. They use **adversarial training** to produce **artificial data** that is identical to actual data.
+
+The Generator attempts to fool the Discriminator, which is tasked with accurately distinguishing between produced and genuine data, by producing random noise samples.
+Realistic, high-quality samples are produced as a result of this competitive interaction, which drives both networks toward advancement.
+GANs are proving to be highly versatile artificial intelligence tools, as evidenced by their extensive use in image synthesis, style transfer, and text-to-image synthesis.
+They have also revolutionized generative modeling.
+Through adversarial training, these models engage in a competitive interplay until the generator becomes adept at creating realistic samples, fooling the discriminator approximately half the time.
+
+Generative Adversarial Networks (GANs) can be broken down into three parts:
+
+Generative: To learn a generative model, which describes how data is generated in terms of a probabilistic model.
+Adversarial: The word adversarial refers to setting one thing up against another. This means that, in the context of GANs, the generative result is compared with the actual images in the data set. A mechanism known as a discriminator is used to apply a model that attempts to distinguish between real and fake images.
+Networks: Use deep neural networks as artificial intelligence (AI) algorithms for training purposes.
+
+
+
+
+
+
+
+
 ### ⬛ Generative adversarial networks (GANs)
 **Generative adversarial networks (GANs)** are an exciting recent innovation in machine learning. **GANs** are **generative models**: they create **new data instances** that resemble your **training data**. For example, GANs can create **images** that look like photographs of human faces, even though the faces don't belong to any real person. 
 
@@ -36,3 +58,6 @@ Neither kind of model has to return a number representing a probability. You can
 For example, a discriminative classifier like a decision tree can label an instance without assigning a probability to that label. Such a classifier would still be a model because the distribution of all predicted labels would model the real distribution of labels in the data.
 
 Similarly, a generative model can model a distribution by producing convincing "fake" data that looks like it's drawn from that distribution.
+
+### ⬛ Resources
+* [GeeksForGeeks](https://www.geeksforgeeks.org/generative-adversarial-network-gan/)
