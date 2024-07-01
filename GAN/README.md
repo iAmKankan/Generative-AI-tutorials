@@ -19,7 +19,7 @@ Generative Adversarial Networks (GANs) can be broken down into three parts:
 2. <ins><b>Conditional GAN (CGAN):</ins></b> **CGAN** can be described as a deep learning method in which some conditional parameters are put into place.
     * In **CGAN**, an additional parameter **‘y’** is added to the **Generator** for generating the corresponding data.
     * Labels are also put into the input to the **Discriminator** in order for the **Discriminator** to help distinguish the **real data** from the **fake generated data**.
-3. <ins><b>Deep Convolutional GAN (DCGAN):</ins></b> **DCGAN** is one of the most popular and also the most successful implementations of <ins><b>. It is composed of **ConvNets** in place of **multi-layer perceptrons**.
+3. <ins><b>Deep Convolutional GAN (DCGAN):</ins></b> **DCGAN** is one of the most popular and also the most successful implementations of **GAN**. It is composed of **ConvNets** in place of **multi-layer perceptrons**.
    * The **ConvNets** are implemented without **max pooling**, which is in fact replaced by **convolutional stride**.
    * Also, the layers are **not fully connected**.
 4. <ins><b>Laplacian Pyramid GAN (LAPGAN):</ins></b> The **Laplacian** pyramid is a **linear invertible image representation** consisting of a set of band-pass images, spaced an octave apart, plus a low-frequency residual.
