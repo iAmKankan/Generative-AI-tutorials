@@ -64,6 +64,13 @@ $$\Large{\color{Purple}J_G =\dfrac{1}{m}\sum_{i=1}^{m}  \log D(x_i) - \dfrac{1}{
 *  The log chance that the discriminator would correctly categorize generated samples as fake is represented by $\large{\color{Purple}\log (1-D(G(z_i)))}$
 *  **The discriminator aims to reduce this loss by accurately identifying artificial and real samples**.
 
+#### MinMax Loss
+In a Generative Adversarial Network (GAN), the minimax loss formula is provided by:
+
+
+
+
+---
 ### ⬛ Generative adversarial networks (GANs)
 **Generative adversarial networks (GANs)** are an exciting recent innovation in machine learning. **GANs** are **generative models**: they create **new data instances** that resemble your **training data**. For example, GANs can create **images** that look like photographs of human faces, even though the faces don't belong to any real person. 
 
