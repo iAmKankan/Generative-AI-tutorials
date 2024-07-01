@@ -27,8 +27,37 @@ Generative Adversarial Networks (GANs) can be broken down into three parts:
    * This approach is mainly used because it produces very **high-quality images**. The image is **down-sampled** at first at each layer of the **pyramid** and then it is again up-scaled at each layer in a **backward pass** where the image acquires some noise from the **Conditional GAN** at these layers until it reaches its original size.
 5. <ins><b>Super Resolution GAN (SRGAN):</ins></b> **SRGAN** as the name suggests is a way of designing a GAN in which a deep neural network is used along with an **adversarial network** in order to produce **higher-resolution images**. This type of **GAN** is particularly useful in optimally up-scaling native low-resolution images to enhance their details minimizing errors while doing so.
 
+### 🔲 Architecture of GANs
+A Generative Adversarial Network (GAN) is composed of two primary parts, which are the Generator and the Discriminator.
 
+### <ins>Generator Model</ins>
+A key element responsible for creating fresh, accurate data in a Generative Adversarial Network (GAN) is the generator model. The generator takes random noise as input and converts it into complex data samples, such text or images. It is commonly depicted as a deep neural network.
 
+The training data’s underlying distribution is captured by layers of learnable parameters in its design through training. The generator adjusts its output to produce samples that closely mimic real data as it is being trained by using backpropagation to fine-tune its parameters.
+
+The generator’s ability to generate high-quality, varied samples that can fool the discriminator is what makes it successful.
+
+#### Generator Loss
+The objective of the generator in a GAN is to produce synthetic samples that are realistic enough to fool the discriminator. The generator achieves this by minimizing its loss function $\large{\color{Purple}J_G}$​. The loss is minimized when the log probability is maximized, i.e., when the discriminator is highly likely to classify the generated samples as real. The following equation is given below:
+
+$$\Large{\color{Purple}J_G =\dfrac{1}{m}\sum_{i=1}^{m} \log D(G(z_i))}$$​
+
+#### Where
+* $\large{\color{Purple}J_G}$ measure how well the generator is fooling the discriminator.
+* $\large{\color{Purple}\log D(G(z_i))}$ represents log probability of the discriminator being correct for generated samples.
+* The generator aims to minimize this loss, encouraging the production of samples that the discriminator classifies as real $\large{\color{Purple}(\log D(G(z_i)))}$ , close to 1
+
+### <ins>Discriminator Model</ins>
+An artificial neural network called a discriminator model is used in Generative Adversarial Networks (GANs) to differentiate between generated and actual input. By evaluating input samples and allocating probability of authenticity, the discriminator functions as a binary classifier.
+
+Over time, the discriminator learns to differentiate between genuine data from the dataset and artificial samples created by the generator. This allows it to progressively hone its parameters and increase its level of proficiency.
+
+Convolutional layers or pertinent structures for other modalities are usually used in its architecture when dealing with picture data. Maximizing the discriminator’s capacity to accurately identify generated samples as fraudulent and real samples as authentic is the aim of the adversarial training procedure. The discriminator grows increasingly discriminating as a result of the generator and discriminator’s interaction, which helps the GAN produce extremely realistic-looking synthetic data overall.
+
+#### Discriminator Loss
+The discriminator reduces the negative log likelihood of correctly classifying both produced and real samples. This loss incentivizes the discriminator to accurately categorize generated samples as fake and real samples with the following equation:
+
+$$\Large{\color{Purple}J_G =\dfrac{1}{m}\sum_{i=1}^{m}  \log D(x_i) - \dfrac{1}{m}\sum_{i=1}^{m} \log (1-D(G(z_i)))}$$​
 
 
 ### ⬛ Generative adversarial networks (GANs)
