@@ -15,17 +15,17 @@ Generative Adversarial Networks (GANs) can be broken down into three parts:
 
 
 ### 🔲 Types of GANs
-1. <ins><b>Vanilla GAN:</ins></b> This is the simplest type of GAN. Here, the Generator and the Discriminator are simple a basic multi-layer perceptrons. In vanilla GAN, the algorithm is really simple, it tries to optimize the mathematical equation using stochastic gradient descent.
-2. <ins><b>Conditional GAN (CGAN):</ins></b> CGAN can be described as a deep learning method in which some conditional parameters are put into place.
-    * In CGAN, an additional parameter ‘y’ is added to the Generator for generating the corresponding data.
-    * Labels are also put into the input to the Discriminator in order for the Discriminator to help distinguish the real data from the fake generated data.
-3. <ins><b>Deep Convolutional GAN (DCGAN):</ins></b> DCGAN is one of the most popular and also the most successful implementations of GAN. It is composed of ConvNets in place of multi-layer perceptrons.
-   * The ConvNets are implemented without max pooling, which is in fact replaced by convolutional stride.
-   * Also, the layers are not fully connected.
-4. <ins><b>Laplacian Pyramid GAN (LAPGAN):</ins></b> The Laplacian pyramid is a linear invertible image representation consisting of a set of band-pass images, spaced an octave apart, plus a low-frequency residual.
-   * This approach uses multiple numbers of Generator and Discriminator networks and different levels of the Laplacian Pyramid.
-   * This approach is mainly used because it produces very high-quality images. The image is down-sampled at first at each layer of the pyramid and then it is again up-scaled at each layer in a backward pass where the image acquires some noise from the Conditional GAN at these layers until it reaches its original size.
-5. <ins><b>Super Resolution GAN (SRGAN):</ins></b> SRGAN as the name suggests is a way of designing a GAN in which a deep neural network is used along with an adversarial network in order to produce higher-resolution images. This type of GAN is particularly useful in optimally up-scaling native low-resolution images to enhance their details minimizing errors while doing so.
+1. <ins><b>Vanilla GAN:</ins></b> This is the simplest type of **GAN**. Here, the **Generator** and the **Discriminator** are simple a basic **multi-layer perceptrons**. In **vanilla GAN**, the algorithm is really simple, it tries to **optimize** the **mathematical equation** using **stochastic gradient descent**.
+2. <ins><b>Conditional GAN (CGAN):</ins></b> **CGAN** can be described as a deep learning method in which some conditional parameters are put into place.
+    * In **CGAN**, an additional parameter **‘y’** is added to the **Generator** for generating the corresponding data.
+    * Labels are also put into the input to the **Discriminator** in order for the **Discriminator** to help distinguish the **real data** from the **fake generated data**.
+3. <ins><b>Deep Convolutional GAN (DCGAN):</ins></b> **DCGAN** is one of the most popular and also the most successful implementations of <ins><b>. It is composed of **ConvNets** in place of **multi-layer perceptrons**.
+   * The **ConvNets** are implemented without **max pooling**, which is in fact replaced by **convolutional stride**.
+   * Also, the layers are **not fully connected**.
+4. <ins><b>Laplacian Pyramid GAN (LAPGAN):</ins></b> The **Laplacian** pyramid is a **linear invertible image representation** consisting of a set of band-pass images, spaced an octave apart, plus a low-frequency residual.
+   * This approach uses multiple numbers of **Generator** and **Discriminator** networks and different levels of the **Laplacian Pyramid**.
+   * This approach is mainly used because it produces very **high-quality images**. The image is **down-sampled** at first at each layer of the **pyramid** and then it is again up-scaled at each layer in a **backward pass** where the image acquires some noise from the **Conditional GAN** at these layers until it reaches its original size.
+5. <ins><b>Super Resolution GAN (SRGAN):</ins></b> **SRGAN** as the name suggests is a way of designing a GAN in which a deep neural network is used along with an **adversarial network** in order to produce **higher-resolution images**. This type of **GAN** is particularly useful in optimally up-scaling native low-resolution images to enhance their details minimizing errors while doing so.
 
 
 
