@@ -1,20 +1,31 @@
 ### ⬛ What is a Generative Adversarial Network?
 **Generative Adversarial Networks (GANs)** are a powerful class of **neural networks** that are used for an **unsupervised learning**. GANs are made up of two neural networks, **a discriminator** and **a generator**. They use **adversarial training** to produce **artificial data** that is identical to actual data.
 
-The Generator attempts to fool the Discriminator, which is tasked with accurately distinguishing between produced and genuine data, by producing random noise samples.
-Realistic, high-quality samples are produced as a result of this competitive interaction, which drives both networks toward advancement.
-GANs are proving to be highly versatile artificial intelligence tools, as evidenced by their extensive use in image synthesis, style transfer, and text-to-image synthesis.
-They have also revolutionized generative modeling.
+* The **Generator** attempts to fool the **Discriminator**, which is tasked with <ins>accurately distinguishing between produced and genuine data</ins>, by producing random noise samples.
+* **Realistic**, **high-quality samples** are produced as a result of this competitive interaction, which drives both networks toward advancement.
+* **GANs** are proving to be highly versatile artificial intelligence tools, as evidenced by their extensive use in **image synthesis**, **style transfer**, and **text-to-image synthesis**.
+* They have also revolutionized generative modeling.
+
 Through adversarial training, these models engage in a competitive interplay until the generator becomes adept at creating realistic samples, fooling the discriminator approximately half the time.
 
 Generative Adversarial Networks (GANs) can be broken down into three parts:
-
-Generative: To learn a generative model, which describes how data is generated in terms of a probabilistic model.
-Adversarial: The word adversarial refers to setting one thing up against another. This means that, in the context of GANs, the generative result is compared with the actual images in the data set. A mechanism known as a discriminator is used to apply a model that attempts to distinguish between real and fake images.
-Networks: Use deep neural networks as artificial intelligence (AI) algorithms for training purposes.
-
+* <ins><b>Generative:</ins></b> To learn a generative model, which describes how data is generated in terms of a probabilistic model.
+* <ins><b>Adversarial:</ins></b> The word adversarial refers to setting one thing up against another. This means that, in the context of GANs, the generative result is compared with the actual images in the data set. A mechanism known as a discriminator is used to apply a model that attempts to distinguish between real and fake images.
+* <ins><b>Networks:</ins></b> Use deep neural networks as artificial intelligence (AI) algorithms for training purposes.
 
 
+### 🔲 Types of GANs
+1. <ins><b>Vanilla GAN:</ins></b> This is the simplest type of GAN. Here, the Generator and the Discriminator are simple a basic multi-layer perceptrons. In vanilla GAN, the algorithm is really simple, it tries to optimize the mathematical equation using stochastic gradient descent.
+2. <ins><b>Conditional GAN (CGAN):</ins></b> CGAN can be described as a deep learning method in which some conditional parameters are put into place.
+In CGAN, an additional parameter ‘y’ is added to the Generator for generating the corresponding data.
+Labels are also put into the input to the Discriminator in order for the Discriminator to help distinguish the real data from the fake generated data.
+3. <ins><b>Deep Convolutional GAN (DCGAN):</ins></b> DCGAN is one of the most popular and also the most successful implementations of GAN. It is composed of ConvNets in place of multi-layer perceptrons.
+The ConvNets are implemented without max pooling, which is in fact replaced by convolutional stride.
+Also, the layers are not fully connected.
+4. <ins><b>Laplacian Pyramid GAN (LAPGAN):</ins></b> The Laplacian pyramid is a linear invertible image representation consisting of a set of band-pass images, spaced an octave apart, plus a low-frequency residual.
+This approach uses multiple numbers of Generator and Discriminator networks and different levels of the Laplacian Pyramid.
+This approach is mainly used because it produces very high-quality images. The image is down-sampled at first at each layer of the pyramid and then it is again up-scaled at each layer in a backward pass where the image acquires some noise from the Conditional GAN at these layers until it reaches its original size.
+5. <ins><b>Super Resolution GAN (SRGAN):</ins></b> SRGAN as the name suggests is a way of designing a GAN in which a deep neural network is used along with an adversarial network in order to produce higher-resolution images. This type of GAN is particularly useful in optimally up-scaling native low-resolution images to enhance their details minimizing errors while doing so.
 
 
 
