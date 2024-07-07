@@ -40,3 +40,9 @@ Generative Al generate new data, based on training sample.Generative model can g
 So generative Al is a very huge topics,
 * Generative Image model
 * Generative Language model
+
+### GAN Structure 
+
+<p align="center">
+  <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/36fde8cb-61ab-4684-a5d3-e95fd36d907b" width=20%/>
+</p>
