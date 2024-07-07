@@ -42,7 +42,10 @@ So generative Al is a very huge topics,
 * Generative Language model
 
 ### GAN Structure 
-
+A **generative adversarial network (GAN)** has two parts:
+* The <ins><b>generator</ins></b> learns to generate plausible data. The generated instances become negative training examples for the discriminator.
+* The <ins><b>discriminator</ins></b> learns to distinguish the generator's fake data from real data. The discriminator penalizes the generator for producing implausible results.
+  
 <p align="center">
   <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/36fde8cb-61ab-4684-a5d3-e95fd36d907b" width=60%/>
 </p>
