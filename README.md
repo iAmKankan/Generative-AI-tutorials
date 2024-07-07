@@ -38,5 +38,5 @@ Generative AI has mainly two parts
 Generative Al generate new data, based on training sample.Generative model can generate Image, Text, Audio, Videos etc. data as output.
 
 So generative Al is a very huge topics,
-
-Generative Image model Generative Language model
+* Generative Image model
+* Generative Language model
