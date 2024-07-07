@@ -23,3 +23,20 @@ Generative AI has mainly two parts
 1) Generative Language Models. example Large Language Models(LLMS)
 2) Generative Image Models.
 
+### Generative Al
+<p align="center">
+  <img src="https://github.com/iAmKankan/Generative-AI-tutorials/assets/12748752/bf203533-7ebf-4932-9b79-03a5af04dfff" width=20%/>
+</p>
+
+#### Example of Large language models
+
+* ChatGPT
+* Google Bard
+* Meta Llama2
+
+### What is Generative Al?
+Generative Al generate new data, based on training sample.Generative model can generate Image, Text, Audio, Videos etc. data as output.
+
+So generative Al is a very huge topics,
+
+Generative Image model Generative Language model
